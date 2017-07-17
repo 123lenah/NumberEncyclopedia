@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04643BB91F1707BB007A94F6 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04643BB81F1707BB007A94F6 /* detailViewController.swift */; };
 		04E474871F06F51900205524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E474861F06F51900205524 /* AppDelegate.swift */; };
 		04E474891F06F51900205524 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E474881F06F51900205524 /* ViewController.swift */; };
 		04E4748C1F06F51900205524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E4748A1F06F51900205524 /* Main.storyboard */; };
 		04E4748E1F06F51900205524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E4748D1F06F51900205524 /* Assets.xcassets */; };
 		04E474911F06F51900205524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E4748F1F06F51900205524 /* LaunchScreen.storyboard */; };
+		04E474991F06F5C300205524 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E474981F06F5C300205524 /* API.swift */; };
+		04E4749B1F06F9F900205524 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E4749A1F06F9F900205524 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04E474831F06F51900205524 /* numberApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = numberApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04643BB81F1707BB007A94F6 /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		04E474831F06F51900205524 /* NumberEncyclopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberEncyclopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E474861F06F51900205524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E474881F06F51900205524 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04E4748B1F06F51900205524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04E4748D1F06F51900205524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E474901F06F51900205524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E474921F06F51900205524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E474981F06F5C300205524 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		04E4749A1F06F9F900205524 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +52,7 @@
 		04E474841F06F51900205524 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04E474831F06F51900205524 /* numberApp.app */,
+				04E474831F06F51900205524 /* NumberEncyclopedia.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +66,9 @@
 				04E4748D1F06F51900205524 /* Assets.xcassets */,
 				04E4748F1F06F51900205524 /* LaunchScreen.storyboard */,
 				04E474921F06F51900205524 /* Info.plist */,
+				04E474981F06F5C300205524 /* API.swift */,
+				04E4749A1F06F9F900205524 /* DataManager.swift */,
+				04643BB81F1707BB007A94F6 /* detailViewController.swift */,
 			);
 			path = numberApp;
 			sourceTree = "<group>";
@@ -67,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04E474821F06F51900205524 /* numberApp */ = {
+		04E474821F06F51900205524 /* NumberEncyclopedia */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04E474951F06F51900205524 /* Build configuration list for PBXNativeTarget "numberApp" */;
+			buildConfigurationList = 04E474951F06F51900205524 /* Build configuration list for PBXNativeTarget "NumberEncyclopedia" */;
 			buildPhases = (
 				04E4747F1F06F51900205524 /* Sources */,
 				04E474801F06F51900205524 /* Frameworks */,
@@ -79,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = numberApp;
+			name = NumberEncyclopedia;
 			productName = numberApp;
-			productReference = 04E474831F06F51900205524 /* numberApp.app */;
+			productReference = 04E474831F06F51900205524 /* NumberEncyclopedia.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04E4747E1F06F51900205524 /* Build configuration list for PBXProject "numberApp" */;
+			buildConfigurationList = 04E4747E1F06F51900205524 /* Build configuration list for PBXProject "NumberEncyclopedia" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04E474821F06F51900205524 /* numberApp */,
+				04E474821F06F51900205524 /* NumberEncyclopedia */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E474891F06F51900205524 /* ViewController.swift in Sources */,
+				04E4749B1F06F9F900205524 /* DataManager.swift in Sources */,
+				04E474991F06F5C300205524 /* API.swift in Sources */,
+				04643BB91F1707BB007A94F6 /* detailViewController.swift in Sources */,
 				04E474871F06F51900205524 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +295,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04E4747E1F06F51900205524 /* Build configuration list for PBXProject "numberApp" */ = {
+		04E4747E1F06F51900205524 /* Build configuration list for PBXProject "NumberEncyclopedia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04E474931F06F51900205524 /* Debug */,
@@ -292,13 +304,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04E474951F06F51900205524 /* Build configuration list for PBXNativeTarget "numberApp" */ = {
+		04E474951F06F51900205524 /* Build configuration list for PBXNativeTarget "NumberEncyclopedia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04E474961F06F51900205524 /* Debug */,
 				04E474971F06F51900205524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

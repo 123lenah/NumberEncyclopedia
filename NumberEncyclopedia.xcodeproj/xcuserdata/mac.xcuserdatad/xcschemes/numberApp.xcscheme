@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "04E474821F06F51900205524"
-               BuildableName = "numberApp.app"
-               BlueprintName = "numberApp"
-               ReferencedContainer = "container:numberApp.xcodeproj">
+               BuildableName = "NumberEncyclopedia.app"
+               BlueprintName = "NumberEncyclopedia"
+               ReferencedContainer = "container:NumberEncyclopedia.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04E474821F06F51900205524"
-            BuildableName = "numberApp.app"
-            BlueprintName = "numberApp"
-            ReferencedContainer = "container:numberApp.xcodeproj">
+            BuildableName = "NumberEncyclopedia.app"
+            BlueprintName = "NumberEncyclopedia"
+            ReferencedContainer = "container:NumberEncyclopedia.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04E474821F06F51900205524"
-            BuildableName = "numberApp.app"
-            BlueprintName = "numberApp"
-            ReferencedContainer = "container:numberApp.xcodeproj">
+            BuildableName = "NumberEncyclopedia.app"
+            BlueprintName = "NumberEncyclopedia"
+            ReferencedContainer = "container:NumberEncyclopedia.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "04E474821F06F51900205524"
-            BuildableName = "numberApp.app"
-            BlueprintName = "numberApp"
-            ReferencedContainer = "container:numberApp.xcodeproj">
+            BuildableName = "NumberEncyclopedia.app"
+            BlueprintName = "NumberEncyclopedia"
+            ReferencedContainer = "container:NumberEncyclopedia.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

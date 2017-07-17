@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:numberApp.xcodeproj">
+      location = "self:/Users/mac/Documents/numberApp/NumberEncyclopedia.xcodeproj">
    </FileRef>
 </Workspace>
